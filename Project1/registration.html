@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1 {text-align: center;}
+            div {text-align: center;}
+           
+       </style>
+        <title> Registration Page </title>
+    </head>
+    <body style="background-image: url(wall.jpg);">
+        <h1 style="text-decoration: underline;"> Registration </h1>
+        <form>
+            <fieldset>
+                <h2> <b>Enter Name: </b></h2>
+                <label for="text"> <b>First Name</b> </label>
+                <input type="text" name="text" id="text">
+                <label for="text1"><b>Mid Name </b></label>
+                <input type="text" name="text1" id="text1">
+                <label for="text2"> <b>Last Name </b></label>
+                <input type="text" name="text2" id="text2"><br><br>
+                <label for="b"> <b>Roll No.</b></label>
+                <input type="number" name="b" id="b"><br><br>
+
+                <label for="Course"> <b>Course</b></label>
+                <input list="Course" name="xyz" id="xyz">
+            <datalist id="Course">
+                <option value="B.tech"> B.tech </option>
+                <option value="Biotech"> Biotech </option>
+                <option value="Pharmacy"> Pharmacy </option>
+                <option value="MBA"> MBA </option>
+                <option value="M.tech"> M.tech </option>
+            </datalist>
+
+            <label for="Branch"> <b>Branch</b></label>
+            <input list="Branch" name="abc" id="abc">
+            <datalist id="Branch">
+                <option value="B.tech"> CSE </option>
+                <option value="Biotech"> IT </option>
+                <option value="Pharmacy"> AI </option>
+                <option value="MBA"> ML </option>
+                <option value="M.tech"> AIML </option>
+            </datalist>
+
+            <label for="Section"> <b>Section</b></label>
+            <input list="Section" name="xy" id="xy">
+            <datalist id="Section">
+                <option value="A"> A </option>
+                <option value="B"> B </option>
+                <option value="C"> C </option>
+                <option value="D">D </option>
+                
+            </datalist><br><br><BR>
+            <div>
+            <button type="button" onclick=""> Submit</button>
+            <button type="button" onclick=""> Exit</button>
+            </div>
+            </fieldset>
+        </form>
+    </body>
+</html>
